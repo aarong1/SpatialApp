@@ -1,0 +1,25 @@
+
+.shiny-notification {
+  
+             position:fixed;
+             top: calc(45%);
+             left: calc(45%);
+             width:20rem;
+             height:8rem;
+             font-size: 40px;
+             }
+             
+.grow:hover {
+  box-shadow: 0px 8px 8px 0px rgb(0, 0, 0, 0.2);
+}
+
+body {
+    animation: fadeInAnimation ease 20s;
+    animation-iteration-count: 10;
+    animation-fill-mode: forwards;
+}
+
+* {
+  
+text-align: center;
+}
